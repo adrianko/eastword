@@ -1,0 +1,105 @@
+body {
+	background: #e5e5e5;
+	font: 13px Arial, sans-serif;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+	background: #fff;
+	height: 45px;
+	margin: 0;
+	top: 0;
+	z-index: 3;
+	-webkit-box-shadow:0 2px 2px 0 rgba(0,0,0,0.1),0 1px 0 0 rgba(0,0,0,0.1);
+	-moz-box-shadow:0 2px 2px 0 rgba(0,0,0,0.1),0 1px 0 0 rgba(0,0,0,0.1);
+	box-shadow:0 2px 2px 0 rgba(0,0,0,0.1),0 1px 0 0 rgba(0,0,0,0.1);
+}
+
+nav {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+#logo {
+	background-image: url('../img/logo.png');
+	background-size: 34px;
+	width: 34px;
+	height: 34px;
+	margin: 5px 0;
+}
+
+nav .inner {
+	font-size: 20px;
+	padding: 0px 0 0 20px;
+}
+
+nav .inner .larger {
+	font-size: 28px;
+}
+
+
+#wrap {
+	margin: 55px auto 0;
+	background: #fff;
+	padding: 10px;
+	width: 1000px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #cdcdcd;
+}
+
+#jobs {
+	margin: 0 auto;
+}
+
+th {
+	border: 1px solid #000;
+}
+
+td {
+	text-align: center;
+	word-wrap: break-word;
+}
+
+#jobs tr.alt {
+	background: #e1e1e1;
+}
+
+#jobs tr th.jobno {
+	width: 55px;
+}
+
+#jobs tr th.lang {
+	width: 45px;
+}
+
+#jobs tr th.client {
+	width: 120px;
+}
+
+#jobs tr th.date, 
+#jobs tr th.date-due, 
+#jobs tr th.invoice-no, 
+#jobs tr th.word-count, 
+#jobs tr th.client-ref {
+	width: 70px;
+}
+
+#jobs tr th.translation, 
+#jobs tr th.input, 
+#jobs tr th.page-makeup, 
+#jobs tr th.done, 
+#jobs tr th.being-invoiced {
+	width: 25px;
+}
+
+#jobs tr th.description {
+	width: 165px;
+}
+
+#jobs tr th.personnel {
+	width: 70px;
+}
